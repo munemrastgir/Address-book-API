@@ -1,0 +1,13 @@
+POST 127.0.0.1:8080/contact?name="Ruby Rose"&address="555 Castle Pl"&cell=123456&id=7
+POST 127.0.0.1:8080/contact?name="Logan"&address="Down the block"&cell=111432001&id=6
+POST 127.0.0.1:8080/contact?name="Bike Man"&address="North Sea River"&cell=623456789&id=5
+POST 127.0.0.1:8080/contact?name="John Willard"&address="66 Pizza Shop"&cell=0012341761&id=4
+POST 127.0.0.1:8080/contact?name="Micheal Armstrong"&address="Empire State Building"&cell=87123451&id=3
+POST 127.0.0.1:8080/contact?name="Lenny"&address="431 Old Drive"&cell=715412312&id=2
+POST 127.0.0.1:8080/contact?name="Micheal Armstrong"&address="123 Sell St"&cell=123456&id=1
+GET 127.0.0.1:8080/contact?pageSize={1}&page={1}&query={name:"Johnny Appleseed"}
+GET 127.0.0.1:8080/contact?pageSize={100}&page={1}&query={address:"55 Cup Rd"}
+DELETE 127.0.0.1:8080/contact/Smith
+GET 127.0.0.1:8080/contact/George Micheal
+DELETE 127.0.0.1:8080/contact/Lenny
+PUT 127.0.0.1:8080/contact/Johnson
