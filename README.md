@@ -4,9 +4,9 @@ Defined Get, Post, Put, and Delete methods using Flask and Elasticsearch databas
 To run, first start up a Node instance on Elasticsearch, and add to it the contact index, CURL command provided in shell script.
 Contact looks like 
 {
-  "name": "John Smith", 
-  "address": "123 South Ave", 
-  "cell": 1012910555 
+  "name": "John Smith",  
+  "address": "123 South Ave",  
+  "cell": 1012910555  
 }
 Address is limited to 60 chars and cell is limited to 16 digits
 
